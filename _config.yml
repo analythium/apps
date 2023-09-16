@@ -1,0 +1,8 @@
+title: Apps
+description: Apps.
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE.md"]
+timezone: America/Edmonton
+encoding: UTF-8
+fathom_analytics: XXTESXHY
+permalink: /:slug/
