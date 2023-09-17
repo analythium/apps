@@ -1,6 +1,5 @@
 ---
-layout: embed
 title: Moose
 description: Moose app
-url: https://psolymos.shinyapps.io/moose/
+embed_url: https://psolymos.shinyapps.io/moose/
 ---
