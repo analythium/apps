@@ -35,3 +35,7 @@ COVID dashboards:
 - <https://hub.analythium.io/covidapp/>
 - <https://analythium.shinyapps.io/covid-19-abmap/>
 - <https://analythium.shinyapps.io/covid-19-alberta/>
+
+Other:
+
+- Red Deer River chemistry monitoring: <https://analythium.shinyapps.io/reddeer/>
