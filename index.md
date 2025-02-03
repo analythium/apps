@@ -1,9 +1,17 @@
 ---
 title: Apps
 description: A list of apps
+layout: list
 ---
 
 # Apps
+
+{% assign redirects = site.pages | where_exp: "item", "item.embed_url != nil" %}
+{% for page in redirects %}
+- [{{ page.url }}]({{ page.url | relative_url }}) 🔀 <{{ page.embed_url }}> ➡️ {{ page.title | escape }} - {{ page.description | escape }}
+{% endfor %}
+
+# Apps -- OLD
 
 Biodiversity Pathways:
 
