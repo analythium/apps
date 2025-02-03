@@ -15,10 +15,6 @@ layout: list
 {% endfor %}
 
 
-{% for page in redirects %}
-- [{{ page.url }}]({{ page.url | relative_url }}) 🔀 <{{ page.embed_url }}> ➡️ {{ page.title | escape }} - {{ page.description | escape }}
-{% endfor %}
-
 ## Other Apps
 
 Biodiversity Pathways:
