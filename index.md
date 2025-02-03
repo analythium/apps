@@ -11,7 +11,8 @@ layout: list
 {% assign redirects = site.pages | where_exp: "item", "item.embed_url != nil" %}
 | Title      | Description | Embed URL    | Original URL    |
 |------------|-------------|--------------|-----------------|
-{% for page in redirects %}| {{ page.title | escape }} | {{ page.description | escape }} | [{{ page.url }}]({{ page.url | relative_url }}) | <{{ page.embed_url }}> |{% endfor %}
+{% for page in redirects %}| {{ page.title | escape }} | {{ page.description | escape }} | [{{ page.url }}]({{ page.url | relative_url }}) | <{{ page.embed_url }}> |
+{% endfor %}
 
 
 {% for page in redirects %}
