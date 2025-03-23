@@ -6,14 +6,14 @@ layout: list
 
 # Apps
 
-These apps were developed by [Analythum](https://a8m.io)
+These apps were developed by [Analythium](https://a8m.io)
 
 ## Embedded Apps
 
 {% assign redirects = site.pages | where_exp: "item", "item.embed_url != nil" %}
 | Title      | Description | Embed URL    | Original URL    |
 |------------|-------------|--------------|-----------------|
-{% for page in redirects %}| {{ page.title | escape }} | {{ page.description | escape }} | [{{ page.url }}]({{ page.url | relative_url }}) | <{{ page.embed_url }}> |
+{% for page in redirects %}| {{ page.title | escape }} | _{{ page.description | escape }}_ | [`{{ page.url }}`]({{ page.url | relative_url }}) | <{{ page.embed_url }}> |
 {% endfor %}
 
 ## Other Apps (not embedded)
