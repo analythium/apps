@@ -6,6 +6,8 @@ layout: list
 
 # Apps
 
+These apps were developed by [Analythum](https://a8m.io)
+
 ## Embedded Apps
 
 {% assign redirects = site.pages | where_exp: "item", "item.embed_url != nil" %}
@@ -16,14 +18,6 @@ layout: list
 
 ## Other Apps (not embedded)
 
-Western Boreal Initiatives - trees & birds:
-
-- Full extent: <https://wbi.predictiveecology.org/apps/wbi/>
-- Northwest Territories: <https://wbi.predictiveecology.org/apps/nwt/>
-
-COVID dashboards:
-
-- <https://hub.analythium.io/covidapp/>
-- <https://analythium.shinyapps.io/covid-19-abmap/>
-- <https://analythium.shinyapps.io/covid-19-alberta/>
-
+- Western Boreal Initiative, full extent: <https://wbi.predictiveecology.org/apps/wbi/>
+- Western Boreal Initiative, Northwest Territories: <https://wbi.predictiveecology.org/apps/nwt/>
+- COVID dashboard, JavaScript & data API: <https://hub.analythium.io/covidapp/>
