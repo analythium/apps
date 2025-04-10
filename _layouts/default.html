@@ -14,9 +14,6 @@
 <meta property="og:url" content="{% if page.embed_url %}{{ page.embed_url }}{% else %}{{ page.url }}{% endif %}" />
 
 <script src="https://cdn.usefathom.com/script.js" data-site="{{ site.fathom_analytics }}" defer></script>
-<script>
-  fathom.trackEvent('app_accessed', {_value: '{{ page.url }}',});
-</script>
 
 <style>
 /* CSS based loader, see more examples here https://projects.lukehaas.me/css-loaders/ */
