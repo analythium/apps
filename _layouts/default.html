@@ -78,7 +78,9 @@
 }
 </style>
 </head>
-<body>
+<body
+  onload="fathom.trackEvent('app requested', {_value: "{{page.url}}"});"
+>
 
   {% if page.embed_url %}
   <div id="loader" class="text-center">
